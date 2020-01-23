@@ -98,6 +98,9 @@ button:focus {
 .mt-25 {
   margin-top: 25px;
 }
+.sr-only{
+  color: red;
+}
 
 .p0 {
   padding-left: 0px;
@@ -420,8 +423,6 @@ button:focus {
   border-color: red;
   font-size: 5rem;
 }
-
-
 
 
 
@@ -3285,6 +3286,11 @@ h6 {
   margin-top: 10px;
 }
 
+
+.carousel-item{
+  text-align: center;
+}
+
 .form-select .nice-select .list .option {
   font-weight: 300;
   -webkit-transition: all 0.3s ease 0s;
@@ -3820,6 +3826,40 @@ h6 {
   padding-top: 15px;
   padding-bottom: 10px;
 }
+.carousel-control-prev-icon{
+  background-color: #8840FC;
+  height: 100px;
+}
+.carousel-control-next-icon{
+  background-color: #8840FC;
+  height: 100px;
+}
+.nova{
+  width: 150px;
+  display: inline-block;
+}
+
+.window{
+  opacity: 0.93;
+  background-color: black;
+  padding: 20px;
+  text-align: center;
+  border-radius: 15px;
+  margin-left: 0px;
+}
+
+.otpravka{
+  color: #fff;
+  padding-bottom: 20px;
+}
+
+.otpravka-oplata{
+    font-size: 20px;
+    text-align: left;
+    &--ukr{
+      text-align: center;
+    }
+  }
 
 .testimonials_area .owl-prev:before {
   content: "";
